@@ -1,0 +1,232 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.car24repair"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/piyawatsakdadet/flutter_project/car24repair/android/app/src/main/AndroidManifest.xml:3:4-66
+15-->/Users/piyawatsakdadet/flutter_project/car24repair/android/app/src/main/AndroidManifest.xml:3:21-63
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/piyawatsakdadet/flutter_project/car24repair/android/app/src/main/AndroidManifest.xml:4:4-78
+16-->/Users/piyawatsakdadet/flutter_project/car24repair/android/app/src/main/AndroidManifest.xml:4:21-75
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/piyawatsakdadet/flutter_project/car24repair/android/app/src/main/AndroidManifest.xml:5:4-80
+17-->/Users/piyawatsakdadet/flutter_project/car24repair/android/app/src/main/AndroidManifest.xml:5:21-77
+18    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+18-->/Users/piyawatsakdadet/flutter_project/car24repair/android/app/src/main/AndroidManifest.xml:6:4-75
+18-->/Users/piyawatsakdadet/flutter_project/car24repair/android/app/src/main/AndroidManifest.xml:6:21-73
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Include required permissions for Google Maps API to run. -->
+19-->[:geolocator_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+19-->[:geolocator_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-74
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <application
+33        android:name="android.app.Application"
+34        android:allowBackup="true"
+34-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:12:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.8.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+38        android:label="car24repair"
+39        android:supportsRtl="true"
+39-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:13:9-35
+40        android:usesCleartextTraffic="true" >
+41        <activity
+42            android:name="com.example.car24repair.MainActivity"
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44            android:exported="true"
+45            android:hardwareAccelerated="true"
+46            android:launchMode="singleTop"
+47            android:theme="@style/LaunchTheme"
+48            android:windowSoftInputMode="adjustResize" >
+49
+50            <!--
+51                 Specifies an Android theme to apply to this Activity as soon as
+52                 the Android process has started. This theme is visible to the user
+53                 while the Flutter UI initializes. After that, this theme continues
+54                 to determine the Window background behind the Flutter UI.
+55            -->
+56            <meta-data
+57                android:name="io.flutter.embedding.android.NormalTheme"
+58                android:resource="@style/NormalTheme" />
+59
+60            <intent-filter>
+61                <action android:name="android.intent.action.MAIN" />
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+71            android:name="flutterEmbedding"
+72            android:value="2" />
+73        <meta-data
+74            android:name="com.google.android.geo.API_KEY"
+75            android:value="AIzaSyB69O3HUJkJwXLuvu3jfqgW7EUOzGvVxlI" />
+76
+77        <service
+77-->[:geolocator_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:56
+78            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+78-->[:geolocator_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-77
+79            android:enabled="true"
+79-->[:geolocator_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-35
+80            android:exported="false"
+80-->[:geolocator_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+81            android:foregroundServiceType="location" />
+81-->[:geolocator_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-53
+82
+83        <provider
+83-->[:image_picker_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+84            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+84-->[:image_picker_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+85            android:authorities="com.example.car24repair.flutter.image_provider"
+85-->[:image_picker_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+86            android:exported="false"
+86-->[:image_picker_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+87            android:grantUriPermissions="true" >
+87-->[:image_picker_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+88            <meta-data
+88-->[:image_picker_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+89                android:name="android.support.FILE_PROVIDER_PATHS"
+89-->[:image_picker_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+90                android:resource="@xml/flutter_image_picker_file_paths" />
+90-->[:image_picker_android] /Users/piyawatsakdadet/flutter_project/car24repair/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+91        </provider>
+92
+93        <activity
+93-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:14:9-16:59
+94            android:name="com.linecorp.linesdk.openchat.ui.CreateOpenChatActivity"
+94-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:15:13-83
+95            android:theme="@style/AppTheme.NoActionBar" />
+95-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:16:13-56
+96        <!--
+97         "launchMode" of this activity must not be singleInstance and singleTask because, this is
+98         launched with using startActivityForResult().
+99         This activity must be stacked on same Activity Stack of the caller.
+100        -->
+101        <activity
+101-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:22:9-27:69
+102            android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"
+102-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:23:13-89
+103            android:configChanges="orientation|screenSize|keyboardHidden"
+103-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:24:13-74
+104            android:exported="false"
+104-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:25:13-37
+105            android:launchMode="singleTop"
+105-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:26:13-43
+106            android:theme="@style/LineSdk_AuthenticationActivity" />
+106-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:27:13-66
+107        <activity
+107-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:28:9-40:20
+108            android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity"
+108-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:29:13-97
+109            android:configChanges="orientation|screenSize|keyboardHidden"
+109-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:30:13-74
+110            android:exported="true" >
+110-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:31:13-36
+111            <intent-filter>
+111-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:32:13-39:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:33:17-69
+112-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:33:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:35:17-76
+114-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:35:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:36:17-78
+115-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:36:27-75
+116
+117                <data android:scheme="lineauth" />
+117-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:38:17-51
+117-->[com.linecorp.linesdk:linesdk:5.4.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/d61d16644556a0b029208bf117bfae0d/transformed/jetified-linesdk-5.4.1/AndroidManifest.xml:38:23-48
+118            </intent-filter>
+119        </activity>
+120
+121        <uses-library
+121-->[androidx.window:window:1.0.0-beta04] /Users/piyawatsakdadet/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+122            android:name="androidx.window.extensions"
+122-->[androidx.window:window:1.0.0-beta04] /Users/piyawatsakdadet/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+123            android:required="false" />
+123-->[androidx.window:window:1.0.0-beta04] /Users/piyawatsakdadet/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+124        <uses-library
+124-->[androidx.window:window:1.0.0-beta04] /Users/piyawatsakdadet/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+125            android:name="androidx.window.sidecar"
+125-->[androidx.window:window:1.0.0-beta04] /Users/piyawatsakdadet/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+126            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+126-->[androidx.window:window:1.0.0-beta04] /Users/piyawatsakdadet/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+127        <uses-library
+127-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+128            android:name="org.apache.http.legacy"
+128-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+129            android:required="false" />
+129-->[com.google.android.gms:play-services-maps:18.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+130
+131        <activity
+131-->[com.google.android.gms:play-services-base:18.0.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+132            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+132-->[com.google.android.gms:play-services-base:18.0.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-base:18.0.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-base:18.0.1] /Users/piyawatsakdadet/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+135
+136        <meta-data
+136-->[com.google.android.gms:play-services-basement:18.0.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+137            android:name="com.google.android.gms.version"
+137-->[com.google.android.gms:play-services-basement:18.0.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+138            android:value="@integer/google_play_services_version" />
+138-->[com.google.android.gms:play-services-basement:18.0.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+139
+140        <provider
+140-->[com.squareup.picasso:picasso:2.71828] /Users/piyawatsakdadet/.gradle/caches/transforms-3/146519758a016f870edc7bac74a53d9f/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+141            android:name="com.squareup.picasso.PicassoProvider"
+141-->[com.squareup.picasso:picasso:2.71828] /Users/piyawatsakdadet/.gradle/caches/transforms-3/146519758a016f870edc7bac74a53d9f/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+142            android:authorities="com.example.car24repair.com.squareup.picasso"
+142-->[com.squareup.picasso:picasso:2.71828] /Users/piyawatsakdadet/.gradle/caches/transforms-3/146519758a016f870edc7bac74a53d9f/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+143            android:exported="false" />
+143-->[com.squareup.picasso:picasso:2.71828] /Users/piyawatsakdadet/.gradle/caches/transforms-3/146519758a016f870edc7bac74a53d9f/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+144        <provider
+144-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/dd8ec7830b1436bbddee75e438fb650c/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+145            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+145-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/dd8ec7830b1436bbddee75e438fb650c/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+146            android:authorities="com.example.car24repair.lifecycle-process"
+146-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/dd8ec7830b1436bbddee75e438fb650c/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+147            android:exported="false"
+147-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/dd8ec7830b1436bbddee75e438fb650c/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+148            android:multiprocess="true" />
+148-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/piyawatsakdadet/.gradle/caches/transforms-3/dd8ec7830b1436bbddee75e438fb650c/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+149    </application>
+150
+151</manifest>
